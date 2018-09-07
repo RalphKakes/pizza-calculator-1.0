@@ -1,0 +1,47 @@
+body {
+
+	background-image: url("hout.jpg");
+	background-repeat: no-repeat;
+	height: 100%;
+	background-size: cover;
+
+}
+
+h1 {
+	text-align: center;
+	 text-shadow:
+    -1px -1px 0 #FFFFFF,
+    1px -1px 0 #FFFFFF,
+    -1px 1px 0 #FFFFFF,
+    1px 1px 0 #FFFFFF;
+    
+}
+
+#text {
+	background-color: black;
+	color: white;
+	border: solid white 2px;
+	position: absolute;
+	left: 500px;
+	top: 250px;
+	width: 480px;
+	height: 200px;
+}
+
+#options {
+	list-style-type: none;
+	position: absolute;
+    bottom: 0;
+    width: 90.5%;
+    height: 200px;
+    text-align: center;	
+}
+
+button {
+	height: 50px;
+	width: 125px;
+	margin: 25px;
+	background-color: black;
+	color: white;
+	border-color: solid black;
+}
