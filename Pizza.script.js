@@ -15,7 +15,7 @@ function SmallPizzaPrize(){
 	textArea.innerHTML = "Hoeveel Small pizza's wilt u kopen? De prijs per small pizza is €5"
 	link1.setAttribute("onclick", "SmallPrompt()");
 	link1.innerHTML = "Aantal:"
-	link2.innerHTML = "Bestellen"
+	link2.style.display = "none"
 	link3.style.display = "none"
 }
 
@@ -37,7 +37,7 @@ function MediumPizza(){
 	textArea.innerHTML = "Hoeveel medium pizza's wilt u kopen? De prijs per medium pizza is €7"
 	link1.innerHTML = "Aantal:"
 	link1.setAttribute("onclick", "MediumPrompt()");
-	link2.innerHTML = "Bestellen"
+	link2.style.display = "none"
 	link3.style.display = "none"	
 
 }
@@ -59,7 +59,7 @@ function LargePizza(){
 	textArea.innerHTML = "Hoeveel large pizza's wilt u kopen? De prijs per large pizza is €10"
 	link1.innerHTML = "Aantal:"
 	link1.setAttribute("onclick", "LargePrompt()");
-	link2.innerHTML = "Bestellen"
+	link2.style.display = "none"
 	link3.style.display = "none"	
 
 }
